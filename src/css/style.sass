@@ -1,0 +1,184 @@
+html,body
+    width: 100%
+    height: 100%
+    word-wrap: break-word
+    color: #354459
+    min-width: 347px
+    font-size: 1rem
+    background: linear-gradient(135deg, #7A88FF, #7AFFAF) no-repeat center center fixed
+    background-size: cover
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+    overflow: hidden
+
+.profile,.main
+    min-height: 722px
+
+.profile,.main
+    border-radius: 7px
+    border-top: 5px solid #252f3e
+    padding: 0
+
+.profile
+    .name
+        width: 100%
+        display: inline-block
+        margin: 0.5rem auto 1rem auto
+        font-weight: bold
+        font-size: 2rem
+
+    .name:after
+        background: #414040be
+        content: ''
+        display: block
+        width: 10rem
+        height: 2px
+        margin: 0.3rem auto 0 auto
+        border-radius: 1px
+        justify-content: center
+
+    .title
+        background: #cfd8dc
+        border: none
+        color: #37474f
+        padding: 0.5rem 1.5rem
+
+    .intro
+        color: #455a64
+        text-align: left
+        margin-top: 1rem
+
+    .contact
+        background: #eceff1
+        width: 100%
+        padding: 1.5rem 0 1.5rem 2rem
+        margin-top: 1rem
+        color: #546e7a
+        text-align: left
+        a, a:after
+            color: #546e7a
+        a:hover
+            text-decoration: none
+
+        i
+            font-size: 1.2rem
+            margin: 0.35rem auto
+            width: 19.2px
+
+    .email
+        bottom: 1rem
+        margin-top: 4rem
+        background-color: #607a9f
+        border: none
+        color: white
+
+    .email:hover
+        background-color: #4d6280
+        color: white
+
+.main
+    margin-left: 1.5rem
+
+    .link
+        background-color: #607a9f
+        border: none
+        padding: 0.2rem 1.5rem 0.4rem 1.5rem
+        color: white
+        float: right
+        font-size: 1.6rem
+
+        i
+            font-size: 1.3rem
+
+    .link:hover
+        background-color: #4d6280
+        color: white
+
+    .title
+        font-size: 2rem
+        font-weight: bold
+        margin-bottom: 1rem
+
+    .title:after
+        background: #414040be
+        content: ''
+        display: block
+        width: 10%
+        height: 2px
+        margin-top: 0.3rem
+        border-radius: 1px
+
+    .subtitle
+        font-size: 1.7rem
+        font-weight: bold
+
+    .resume-box
+        min-height: 150px
+
+    .resume-content
+        padding: 1rem
+        color: #5d697a
+
+        .content-title
+            font-size: 1.2rem
+            font-weight: bold
+            margin-bottom: 0.5rem
+
+        .duty
+            display: inline-block
+            margin-bottom: 0.3rem
+
+        .tech-btn
+            display: inline-block
+            background-color: #607a9f
+            color: white
+            margin: 0.25rem
+            padding: 0.3rem 0.8rem
+
+.card
+    margin: 0
+    .imgcontainer
+        max-height: 100px
+        overflow: hidden
+    img
+        transform: translateY(-10%)
+    .portfolio-lang
+        display: inline-block
+        background-color: #607a9f
+        color: white
+        margin: 0.1rem 0.5rem 0.75rem 0
+        padding: 0.1rem 0.3rem
+    .card-body
+        padding: 1rem
+    .card-text
+        margin-bottom: 0.75rem
+        font-size: 0.95rem
+
+@media screen and (max-width: 1199px)
+    .main,.profile
+        min-height: 806px
+    .profile
+        .title
+            padding: 0.5rem
+
+@media screen and (max-width: 991px)
+    html,body
+        overflow: visible
+    .main,.profile
+        min-height: 556px
+
+    .profile
+        margin-top: 0
+        .email
+            margin-top: 2rem
+        .title
+            padding: 0.5rem 1rem
+    .main
+        margin-left: auto
+        .resume-box
+            min-height: 120px
+
+    .mobile-fix
+        margin: 2rem auto 0 auto !important
