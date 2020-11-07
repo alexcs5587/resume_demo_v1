@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import PortfolioCard from "./PortfolioCard"
 import PortfolioCardData from "./PortfolioCardData"
 
-export class Portfolio extends Component {
+class Portfolio extends Component {
     componentDidMount() {
         document.title = 'Portfolio';
     }
