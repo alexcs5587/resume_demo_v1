@@ -12,7 +12,7 @@ class Portfolio extends Component {
         return (
             <div>
                 <div className="title">Portfolio
-                <Link to="/"><button className="btn link rounded-pill"><i className="fas fa-link"></i> Resume</button></Link>
+                <Link to="/"><button className="btn link rounded-pill hvr-grow"><i className="fas fa-link"></i> Resume</button></Link>
                 </div>
                 <div className="row">
                     {PortfolioCardComponents}

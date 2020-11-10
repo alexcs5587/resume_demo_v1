@@ -8,8 +8,8 @@ function PortfolioCard(props) {
             <div className="card-body">
                 <h5 className="card-title">{props.card.title}</h5>{ProjectLanguage}
                 <p className="card-text">{props.card.text}</p>
-                {props.card.webLink === "" ? "" : <a href={"https://" + props.card.webLink} className="btn btn-primary mr-3">Website</a>}
-                {props.card.codeLink === "" ? "" : <a href={"https://" + props.card.codeLink} className="btn btn-secondary">Code</a>}
+                {props.card.webLink === "" ? "" : <a href={"https://" + props.card.webLink} className="btn btn-primary mr-3 hvr-pulse">Website</a>}
+                {props.card.codeLink === "" ? "" : <a href={"https://" + props.card.codeLink} className="btn btn-secondary hvr-pulse">Code</a>}
             </div >
         </div >
     )

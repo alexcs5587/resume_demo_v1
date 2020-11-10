@@ -9,14 +9,14 @@ class Resume extends Component {
         //Technical Skills Lists//
         //Languages & Frameworks/Libraries list
         const langList = ["HTML5", "CSS3", "JavaScript", "JQuery", "React", "Node.js",
-            "Express.js", "Python", "PHP", "JAVA", "Spring Framework", "SQL", "Excel VBA"]
+            "Express.js", "PHP", "JAVA", "Spring Framework", "SQL", "Excel VBA"]
 
         // Tools list
         const toolList = ["Git", "Visual Studio", "Apache Tomcat",
             "Netbeans", "Spyder", "Unity", "Microsoft Office", "Adobe Premiere Pro"]
 
         // Database list
-        const databaseList = ["MySQL", "MongoDB", "PostgreSQL"]
+        const databaseList = ["MySQL", "MongoDB"]
 
         // split the list into item
         const langItem = langList.map(item => <span key={item} className="tech-btn rounded-pill">{item}</span>)
@@ -25,7 +25,7 @@ class Resume extends Component {
 
         return (
             <div>
-                <div className="title">Resume<Link to="/portfolio"><button className="btn link rounded-pill"><i className="fas fa-link"></i> Portfolio</button></Link></div>
+                <div className="title">Resume<Link to="/portfolio"><button className="btn link rounded-pill hvr-grow"><i className="fas fa-link"></i> Portfolio</button></Link></div>
 
                 <div className="resume">
                     <div className="row">

@@ -18,7 +18,7 @@ function Profile() {
             </div>
 
             {/* Email */}
-            <a href="mailto:alexcs5587@gmail.com" className="email btn rounded-pill px-5">Email me</a>
+            <a href="mailto:alexcs5587@gmail.com" className="hvr-grow email btn rounded-pill px-5">Email me</a>
         </div >
     )
 }
