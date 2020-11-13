@@ -2,12 +2,11 @@ import React from 'react'
 
 function Profile() {
     return (
-        <div className="row justify-content-center text-center ">
-
+        <div className="justify-content-center text-center ">
             {/* Profile */}
             <div className="name">Alex Chui</div>
-            <p className="title rounded-pill">Graduate Developer</p>
-            <p className="px-3 intro">IT fresh graduate with experience in various programming languages and frameworks.
+            <span className="title rounded-pill">Graduate Developer</span>
+            <p className="intro">IT fresh graduate with experience in various programming languages and frameworks.
                     Looking for an entry-level IT specialist position to utilize my skills and experience.</p>
 
             {/* Contact */}

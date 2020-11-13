@@ -1,28 +1,42 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Main from "./components/Main";
 import Profile from "./components/Profile";
+import Particles from 'react-particles-js';
+import particlesConfig from './components/particlesConfig';
+
 import {
   BrowserRouter as Router
 } from "react-router-dom";
 
 
-class App extends Component {
-  render() {
-    return (
-      <Router basename={process.env.PUBLIC_URL}>
-        <div className="container">
-          <div className="row vh-100">
-            <div className="col-lg-3 my-auto p-0 mobile-fix">
-              <div className="profile bg-white p-3"><Profile /></div>
-            </div>
-            <div className="col-lg-9 my-auto p-0 mobile-fix">
-              <div className="main bg-white px-4 py-3 "><Main /></div>
+function App() {
+
+  return (
+    <Router basename={process.env.PUBLIC_URL}>
+      <Particles
+        params={particlesConfig}
+        style={{
+          width: '100 %',
+          height: '100 %',
+          position: 'absolute',
+          background: `#000000`
+        }}
+      />
+
+      <div className="container d-flex vh-100 justify-content-center">
+        <div className="row my-auto">
+          <div className="profile col-lg-3 py-3">
+            <Profile />
+          </div>
+          <div className="col-lg-9 pl-3 pr-0 mobile-fix">
+            <div className="main px-4 py-3">
+              <Main />
             </div>
           </div>
-        </div >
-      </Router >
-    )
-  }
+        </div>
+      </div>
+    </Router >
+  )
 }
 
 export default App

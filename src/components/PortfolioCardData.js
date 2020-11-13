@@ -3,15 +3,15 @@ const PortfoliocardData = [
         image: "/img/portfolio.jpg",
         title: "Online resume & portfolio",
         text: "A online responsive resume & portfolio website (This website)",
-        language: ["React", "Bootstrap4", "CSS3(Sass)", "JavaScript"],
+        language: ["React", "CSS3(Sass)", "Bootstrap4", "JavaScript"],
         webLink: "alexcs5587.github.io/",
         codeLink: "github.com/alexcs5587/alexcs5587.github.io"
     },
     {
         image: "/img/demoshop.jpg",
         title: "Responsive E-commerce Website",
-        text: "A responsive e-commerce website demo using HTML, CSS & JavaScript",
-        language: ["HTML", "CSS3(Sass)", "Javascript"],
+        text: "A responsive e-commerce website demo using HTML, CSS & Bootstrap4",
+        language: ["HTML", "CSS3(Sass)", "Bootstrap4", "JavaScript"],
         webLink: "alexcs5587.github.io/Responsive_Ecommerce_Website/",
         codeLink: "github.com/alexcs5587/Responsive_Ecommerce_Website"
     },
