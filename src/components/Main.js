@@ -7,9 +7,9 @@ function Main() {
     return (
         <div>
             <Switch>
-                <Redirect exact from="/" to="/resume" />
                 <Route exact path="/resume" component={Resume} />
                 <Route exact path="/portfolio" component={Portfolio} />
+                <Redirect from="/" to="/resume" />
             </Switch>
         </div>
     )

@@ -29,7 +29,7 @@ function App() {
             <Profile />
           </div>
           <div className="col-lg-9 pl-3 pr-0 mobile-fix">
-            <div className="main px-4 py-3">
+            <div className="main">
               <Main />
             </div>
           </div>

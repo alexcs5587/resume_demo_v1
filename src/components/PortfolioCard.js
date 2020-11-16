@@ -1,11 +1,13 @@
 import React from 'react'
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 function PortfolioCard(props) {
     const cardData = props.PortfoliocardData
     const ProjectLanguage = cardData.language.map(language => <span key={language} className="portfolio-lang rounded-pill">{language}</span>)
     return (
         <div className="card col-lg-6" >
-            <div className="imgcontainer"><img src={process.env.PUBLIC_URL + cardData.image} className="card-img-top" alt="" /></div>
+            <div className="imgcontainer"><Zoom><img src={process.env.PUBLIC_URL + cardData.image} className="card-img-top" alt="" /></Zoom></div>
             <div className="card-body">
                 <h5 className="card-title">{cardData.title}</h5>
                 {ProjectLanguage}
