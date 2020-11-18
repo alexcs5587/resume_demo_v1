@@ -182,20 +182,22 @@ html,body
     li:not(:first-child)
         margin-left: .5rem
     & a
+        color: #2196f3
         padding: .5rem 1rem
         border-radius: 5px
-        border: 1px solid #6c7ac9
+        border: 1px solid #2196f3
         &:hover,&:focus,&:active
             outline: none
+            color: #354459
 
     &-link
         font-weight: bold
 
     &-link-active a
         color: #fff
-        background-color: #2196f3
+        background-color: #66baff
 
-    &-link-disabled a
+    &-link-disabled a,&-link-disabled a:hover,&-link-disabled a:active,&-link-disabled a:focus
         color: rgb(198, 197, 202)
         border: 1px solid rgb(198, 197, 202)
 
