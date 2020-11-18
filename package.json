@@ -4,7 +4,7 @@
   "homepage": "https://alexcs5587.github.io/",
   "private": true,
   "dependencies": {
-    "node-sass": "4.14.1",
+    "node-sass": "5.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-medium-image-zoom": "^4.3.1",
