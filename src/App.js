@@ -1,7 +1,7 @@
 import React from 'react'
 import Main from "./components/Main";
 import Profile from "./components/Profile";
-import Particles from 'react-particles-js';
+import Particles from '@tsparticles/react';
 import particlesConfig from './components/particlesConfig';
 
 import {

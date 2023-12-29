@@ -4,15 +4,14 @@
   "homepage": "https://alexcs5587.github.io/",
   "private": true,
   "dependencies": {
-    "node-sass": "4.14.1",
+    "node-sass": "^9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-medium-image-zoom": "^4.3.1",
     "react-paginate": "^6.5.0",
-    "react-particles-js": "^3.4.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0",
-    "react-tsparticles": "^1.18.11"
+    "react-scripts": "^4.0.0",
+    "@tsparticles/react": "^1.18.11"
   },
   "scripts": {
     "start": "react-scripts start",
