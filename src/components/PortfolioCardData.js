@@ -3,9 +3,9 @@ const PortfoliocardData = [
         image: "/img/portfolio.webp",
         title: "Online resume & portfolio",
         text: "A online responsive resume & portfolio website (This website)",
-        language: ["React", "CSS3(Sass)", "Bootstrap4", "JavaScript"],
+        language: ["React", "CSS3", "Bootstrap4", "JavaScript"],
         webLink: "alexcs5587.github.io/",
-        codeLink: "github.com/alexcs5587/alexcs5587.github.io"
+        codeLink: "github.com/alexcs5587/alexcs5587.github.io",
     },
     {
         image: "/img/demoshop.webp",
@@ -13,7 +13,7 @@ const PortfoliocardData = [
         text: "A single page responsive e-commerce website demo using HTML, CSS & Bootstrap4",
         language: ["HTML", "CSS3(Sass)", "Bootstrap4", "JavaScript"],
         webLink: "alexcs5587.github.io/Responsive_Ecommerce_Website/",
-        codeLink: "github.com/alexcs5587/Responsive_Ecommerce_Website"
+        codeLink: "github.com/alexcs5587/Responsive_Ecommerce_Website",
     },
     {
         image: "/img/wordpress-ecommerce.webp",
@@ -21,7 +21,7 @@ const PortfoliocardData = [
         text: "A fully functional E-commerce Website Demo (Selling mobile & tablet) built with WordPress",
         language: ["WordPress", "CSS3", "Amazon EC2"],
         webLink: "www.alexcs5587.site",
-        codeLink: ""
+        codeLink: "",
     },
     {
         image: "/img/restaurant.webp",
@@ -29,7 +29,7 @@ const PortfoliocardData = [
         text: "A restaurant rating web application that allows users to create accounts and rate restaurants",
         language: ["Node.js", "Express.js", "ejs", "MongoDB", "CSS3"],
         webLink: "alexcs5587-restaurant-app.herokuapp.com/login",
-        codeLink: "github.com/alexcs5587/restaurant-app"
+        codeLink: "github.com/alexcs5587/restaurant-app",
     },
     {
         image: "/img/exif.webp",
@@ -37,7 +37,7 @@ const PortfoliocardData = [
         text: "A online photo Exif data viewer that can parser the EXIF data of the uploaded photo",
         language: ["Node.js", "Express.js", "ejs", "CSS3"],
         webLink: "alexcs5587-exif-app.herokuapp.com/",
-        codeLink: "github.com/alexcs5587/exif-app"
+        codeLink: "github.com/alexcs5587/exif-app",
     },
     {
         image: "/img/alert.webp",
@@ -45,8 +45,8 @@ const PortfoliocardData = [
         text: "Detect Amazon.jp product prices & receive email notification if it drops to the expected price",
         language: ["Python"],
         webLink: "",
-        codeLink: "github.com/alexcs5587/amz-price-detect"
-    }
-]
+        codeLink: "github.com/alexcs5587/amz-price-detect",
+    },
+];
 
-export default PortfoliocardData
+export default PortfoliocardData;

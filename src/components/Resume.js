@@ -53,9 +53,33 @@ function Resume() {
                                 Technology
                             </div>
                             <p>Hong Kong Metropolitan University | 2016-2020</p>
-                            <p>Award GPA: 3.43/4.0</p>
+                        </div>
+
+                        <div className="subtitle">
+                            <i className="fas fa-tools" aria-hidden="true">
+                                {" "}
+                                Technical Skills
+                            </i>
+                        </div>
+                        {/* Languages & Frameworks/Libraries */}
+                        <div className="resume-content">
+                            <div className="content-title">
+                                Languages & Frameworks/Libraries
+                            </div>
+                            {langItem}
+                        </div>
+                        {/* Tools */}
+                        <div className="resume-content">
+                            <div className="content-title">Tools</div>
+                            {toolItem}
+                        </div>
+                        {/* Database */}
+                        <div className="resume-content pt-0">
+                            <div className="content-title">Databases</div>
+                            {databaseItem}
                         </div>
                     </div>
+
                     {/* Working Experience */}
                     <div className="col-lg-6 resume-box">
                         <div className="subtitle">
@@ -66,6 +90,43 @@ function Resume() {
                         </div>
                         <div className="resume-content">
                             <div className="content-title">
+                                Central Business Information Limited{" "}
+                                <span className="d-inline-block ">
+                                    (Senior Application Developer)
+                                </span>
+                            </div>
+                            <span className="duty font-weight-bold">
+                                Dec 2020 - Present
+                            </span>
+                            <span className="duty">
+                                • Build robotic process automation systems to
+                                reduce over 90% manual operations and
+                                significantly increase productivity
+                            </span>
+                            <span className="duty">
+                                • Design and develop databases to efficiently
+                                store and access large datasets for business
+                                intelligence and analytics{" "}
+                            </span>
+                            <span className="duty">
+                                • Develop AI solutions using technologies like
+                                OpenAI to automate business processes and
+                                enhance decision making{" "}
+                            </span>
+                            <span className="duty">
+                                •Supervise a team of developers and oversee
+                                projects from conception to launch{" "}
+                            </span>
+                            <span className="duty">
+                                {" "}
+                                • Support manager in engaging with end-users to
+                                identify requirements, discuss solutions and
+                                achieve business objectives.
+                            </span>
+                        </div>
+
+                        <div className="resume-content">
+                            <div className="content-title">
                                 Lands Department{" "}
                                 <span className="d-inline-block ">
                                     (Summer Intern)
@@ -74,45 +135,11 @@ function Resume() {
                             <span className="duty font-weight-bold">
                                 Jun 2019 - Jul 2019
                             </span>
-                            {/* <span className="duty">- Revamp the existing information systems using Excel VBA</span>
-                            <span className="duty">- Perform system maintenance to enhance the efficiency of its daily operation</span>
-                            <span className="duty">- Dealing with complicated documents</span> */}
-                        </div>
-                    </div>
-                </div>
-                {/* Technical Skills */}
-                <div className="row">
-                    <div className="col-lg-12 resume-box">
-                        <div className="subtitle">
-                            <i className="fas fa-tools" aria-hidden="true">
+                            <span className="duty">
                                 {" "}
-                                Technical Skills
-                            </i>
-                        </div>
-                        <div className="row">
-                            {/* Languages & Frameworks/Libraries */}
-                            <div className="col-lg-6">
-                                <div className="resume-content">
-                                    <div className="content-title">
-                                        Languages & Frameworks/Libraries
-                                    </div>
-                                    {langItem}
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                {/* Tools */}
-                                <div className="resume-content">
-                                    <div className="content-title">Tools</div>
-                                    {toolItem}
-                                </div>
-                                {/* Database */}
-                                <div className="resume-content pt-0">
-                                    <div className="content-title">
-                                        Databases
-                                    </div>
-                                    {databaseItem}
-                                </div>
-                            </div>
+                                • Revamp the existing information systems using
+                                Excel VBA
+                            </span>
                         </div>
                     </div>
                 </div>

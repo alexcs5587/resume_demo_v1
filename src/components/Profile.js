@@ -7,11 +7,11 @@ function Profile() {
             <div className="name">Alex Chui</div>
             <span className="title rounded-pill">Application Developer</span>
             <p className="intro">
-                As a results-driven Application Developer with 3 years of
-                experience, I specialize in utilizing the latest technologies to
-                enhance business processes and drive efficiency. I am actively
-                exploring opportunities where my technical abilities and proven
-                success managing projects can deliver greater impact.
+                Results-driven Application Developer with 3 years of experience.
+                Specialize in utilizing the latest technologies to enhance
+                business processes and drive efficiency. Adept at all phases of
+                the software development life cycle from specification and
+                design through development, testing, deployment and maintenance.
             </p>
 
             {/* Contact */}
@@ -30,12 +30,13 @@ function Profile() {
                     {" "}
                     github.com/alexcs5587
                 </a>
+                <br />
                 <i className="fab fa-linkedin" aria-hidden="true">
                     {" "}
                 </i>
                 <a href="https://www.linkedin.com/in/alexchui25/">
                     {" "}
-                    linkedin.com/in/alexchui25/
+                    linkedin.com/in/alexchui25
                 </a>
             </div>
 

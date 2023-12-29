@@ -1,14 +1,17 @@
 const TechSkillData = {
     langList: [
         "Python",
-        "Excel VBA",
+        "Flask",
+        "Pandas",
+        "VBA",
         "HTML5",
         "CSS3",
+        "Tailwind CSS",
         "JavaScript",
         "React.js",
-        "Flutterflow",
+        "Node.js",
     ],
-    toolList: ["Git", "Visual Studio", "Microsoft Office"],
+    toolList: ["Git", "Visual Studio", "Microsoft Office", "Flutterflow"],
     databaseList: ["MySQL", "MongoDB"],
 };
 export default TechSkillData;
