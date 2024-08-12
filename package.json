@@ -1,7 +1,7 @@
 {
-    "name": "alexcs5587.github.io",
+    "name": "resume_demo_v1",
     "version": "0.1.0",
-    "homepage": "https://alexcs5587.github.io/",
+    "homepage": "https://alexcs5587.github.io/resume_demo_v1",
     "private": true,
     "dependencies": {
         "react": "^16.13.1",
